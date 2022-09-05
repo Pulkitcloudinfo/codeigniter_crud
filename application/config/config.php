@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['index_page'] = 'index.php';
-$config['base_url'] = '/codeigniter_crud/';
+$config['base_url'] = 'codeigniter_crud/';
 
 /*
 |--------------------------------------------------------------------------

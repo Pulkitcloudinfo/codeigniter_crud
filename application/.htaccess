@@ -1,0 +1,12 @@
+<IfModule authz_core_module>
+    Require all denied
+</IfModule>
+<IfModule !authz_core_module>
+    Deny from all
+</IfModule>
+
+
+RewriteEngine On
+SetEnvIf Host http://52.38.196.44/codeigniter_crud CI_ENV=production
+SetEnvIf Host test.http://52.38.196.44/codeigniter_crud CI_ENV=testing
+SetEnvIf Host http://localhost/codeigniter_crud CI_ENV=development

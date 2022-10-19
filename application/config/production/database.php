@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'database-3.crhv1zv05bqm.us-west-2.rds.amazonaws.com',
-	'username' => 'admin',
-	'password' => '987654321',
+	'hostname' => '194.163.44.42',
+	'username' => 'root',
+	'password' => 'Cloud@2022',
 	'database' => 'codeigniter',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
